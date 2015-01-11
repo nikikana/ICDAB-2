@@ -1,0 +1,123 @@
+body {
+  font-family: 'Inconsolata', sans-serif;
+  background: url('../images/bg.png') no-repeat;
+}
+
+h1 {
+  color: rgb(253, 80, 87);
+  font: 8rem/1em 'Lato', sans-serif;
+  margin-bottom: 0;
+  text-align: center;
+}
+a {
+  color: rgb(49, 85, 188);
+}
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+
+.subtitle {
+  color: rgb(135, 118, 77);
+  font: normal 18pt 'Inconsolata', sans-serif;
+  text-align: center;
+  margin-bottom: 1em 10% 0 0;
+}
+.subsubtitle {
+  font: normal 12pt 'Inconsolata', sans-serif;
+  color: rgb(0, 179, 93);
+  text-align: center;
+}
+.subsubtitle a, .footer a {
+  color: rgb(0, 179, 93);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(49, 85, 188);
+}
+.subsubtitle a:hover, .footer a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.content-area {
+  border-left: 5px solid rgb(225, 217, 218);
+  padding: 0 3em;
+  margin-bottom: 5em;
+}
+.toc-area {
+  padding: 1em;
+  margin: 1em 0;
+  font-family: 'Lato', sans-serif;
+}
+.toc-area a {
+  font-family: 'Inconsolata', sans-serif;
+  text-decoration: none;
+  padding: 0.5em;
+}
+.toc-area a:hover {
+  background-color: rgb(253, 80, 87);
+  color: #fff
+}
+.dl-area {
+  
+  margin-bottom: 1em;
+  text-align: center;
+}
+.toc {
+  margin: 1em;
+}
+ol {
+  
+}
+.read {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font: 700 20pt sans-serif;
+  padding: 1em;
+  display: block;
+}
+a.green:hover {
+  background: rgba(0, 179, 93, 0.8);
+  color: #fff;
+}
+a.blue:hover {
+  background: rgba(49, 85, 188, 0.8);
+  color: #fff;
+}
+a.red:hover {
+  background: rgba(253, 80, 87, 0.8);
+  color: #fff;
+}
+a.light-green-bg:hover {
+  background: rgba(209, 240, 225, 0.8);
+  color: rgb(253, 80, 87);
+}
+.read:hover {
+  background: rgba(135, 118, 77, 0.8);
+  color: #fff;
+}
+
+.footer {
+  font-family: 'Noto Serif', serif;
+  color: rgb(135, 118, 77);
+}
+
+.brown {
+  color: rgb(135, 118, 77);
+}
+.blue {
+  color: rgb(49, 85, 188);
+}
+.green {
+  color: rgb(0, 179, 93);
+}
+.red {
+  color: rgb(253, 80, 87);
+}
+.light-green {
+  color: rgb(209, 240, 225);
+}
+.light-red {
+  background-color: rgb(225, 217, 218);
+}
